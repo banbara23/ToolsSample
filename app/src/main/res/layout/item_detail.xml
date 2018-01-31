@@ -8,4 +8,5 @@
     android:padding="16dp"
     android:textIsSelectable="true"
     tools:context="ikemura.com.toolssample.ItemDetailFragment"
+    tools:text="@tools:sample/lorem/random"
     />

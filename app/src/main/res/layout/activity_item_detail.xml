@@ -15,6 +15,7 @@
         android:layout_height="@dimen/app_bar_height"
         android:fitsSystemWindows="true"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        tools:background="@tools:sample/backgrounds/scenic"
         >
 
         <android.support.design.widget.CollapsingToolbarLayout

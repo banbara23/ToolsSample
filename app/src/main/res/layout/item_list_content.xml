@@ -21,6 +21,7 @@
         app:layout_constraintHorizontal_weight="1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/id_text"
+        tools:src="@tools:sample/avatars"
         />
 
     <TextView
@@ -34,6 +35,7 @@
         app:layout_constraintStart_toEndOf="@id/avatar"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed"
+        tools:text="@tools:sample/full_names"
         />
 
     <TextView
@@ -46,6 +48,7 @@
         app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintStart_toEndOf="@id/avatar"
         app:layout_constraintTop_toBottomOf="@+id/id_text"
+        tools:text="@tools:sample/cities"
         />
 
     <TextView
@@ -57,6 +60,7 @@
         app:layout_constraintBaseline_toBaselineOf="@id/city"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/city"
+        tools:text="@tools:sample/date/ddmmyy"
         />
 
     <TextView
@@ -70,6 +74,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/avatar"
         app:layout_constraintTop_toBottomOf="@+id/city"
+        tools:text="@tools:sample/lorem/random"
         />
 
 </android.support.constraint.ConstraintLayout>
